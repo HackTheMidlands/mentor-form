@@ -1,4 +1,4 @@
-HELPq
+HackTheMidlands 4.0 Mentor Form, powered by HELPq
 ======
 
 An extensible, customizable real-time queue system, built with [Meteor](https://www.meteor.com/)!
