@@ -113,11 +113,11 @@ $github-gray: #e4e4e4;
 
 @media screen and (max-width: 750px) {
   #logo {
-    width: 50%
+    width: 0%
   }
 }
 
 // Footer, which appears on each page.
 footer {
-  background-color: #348DDD;
+  color: darken(white, 25%);
 }
