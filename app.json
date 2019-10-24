@@ -1,6 +1,6 @@
 {
-    "name": "HELPq",
-    "description": "An extensible, customizable real-time queue system",
+    "name": "HackTheMidlands 4.0",
+    "description": "HackTheMidlands 4.0 Mentoring System",
     "env": {
         "ROOT_URL": "https://{SET THIS}.herokuapp.com/",
         "ADMIN_PASSWORD": "{SET THIS}",

@@ -82,7 +82,7 @@ $github-gray: #e4e4e4;
   // background-size: cover;
 
   // Background image that repeats
-  background: url(/assets/images/geometry2.png) repeat;
+  background-color: #348DDD;
 }
 
 
@@ -99,7 +99,22 @@ $github-gray: #e4e4e4;
   // background: $brand-primary;
 
   // Repeated Background:
-  background: url(/assets/images/geometry2.png) repeat;
+  background-color: #348DDD;
+  background-size: cover;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-bottom: 16px;
+}
+
+@media screen and (max-width: 750px) {
+  #logo {
+    width: 0%
+  }
 }
 
 // Footer, which appears on each page.

@@ -17,13 +17,20 @@
     .subheader {
       font-size: 1.5em;
       margin-bottom: .5em;
+      padding: 12px;
     }
 
     .header {
       @include logo-font();
-      font-size: 4em;
-      letter-spacing: .2em;
+      font-size: 48px;
       line-height: 1.33;
+      padding: 12px;
+    }
+
+    @media screen and (max-width: 750px) {
+      .header {
+        font-size: 32px
+      }      
     }
 
     #login {
