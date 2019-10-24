@@ -1,6 +1,6 @@
 provider "google" {
   credentials = "${file("deploy/credentials/gcloud.json")}"
-  project     = "${jsondecode(file("credentials/gcloud.json"))["project_id"]}"
+  project     = "${jsondecode(file("deploy/credentials/gcloud.json"))["project_id"]}"
   region      = "europe-west2"
   zone        = "europe-west2-a"
 }
